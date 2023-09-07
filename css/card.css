@@ -1,0 +1,115 @@
+  .titulo-seccion-1 {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Josefin Slab', serif;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-container h2{
+    text-align: center;
+    font-size: 250%;
+    margin: 1%;
+    font-family: 'Josefin Slab', serif;
+  }
+
+  .card-container article{
+    width: 30%;
+  }
+
+  .card-container a{
+    width: 75%;
+    margin: 1% 20% 3% 20%;
+  }
+
+  .cardLink{
+    margin: 1%;
+    padding: 0%;
+    display: inline-block;
+    max-width: 75%;
+    text-decoration: none;
+  }
+  
+  .card {
+    border: solid rgb(101,92,201);
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    border:  solid blue;
+  }
+  
+  .card img {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  
+  .card-info button {
+    font-size: 1.2rem;
+    font-family: 'DynaPuff', cursive;
+    padding: 0.5rem;
+    background-color: rgb(101,92,201);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  
+  .card-info h2 {
+    font-size: 200%;
+    margin: 5%;
+    font-family: 'Josefin Slab', serif;
+  }
+  
+  .card-info p {
+    font-size: 130%;
+    font-family: 'Amaranth', sans-serif;
+    margin: 2%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #opcionCategorias {
+    padding: 0.3%;
+    margin-left: 5%;
+    border: solid chocolate;
+  }
+  
+  @media (max-width: 800px) {
+    .card-container article{
+      width: 90%;
+    }
+  
+    #opcionCategorias {
+      margin-left: 35%;
+      margin-bottom: 5%;
+      padding: 1.5%;
+      border: solid  chocolate;
+    }
+  }
+  
+  @media (max-width: 1301px) and (min-width: 801px) {
+    .card-container article{
+      width: 45%;
+    }
+  }

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); /*para el header y el ffote*/
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@700&display=swap'); /* para botones*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap'); /*para los h*/
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap'); /*para parrafos*/
+
+body {
+    background-color: #dfdbb6;   
+}
+
+main {
+  min-height: calc(84vh - 140px);
+}
